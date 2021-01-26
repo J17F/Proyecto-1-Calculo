@@ -31,7 +31,10 @@ def Jose_Gomez(cadena):
     """
     Recibe como paŕametro una cadena y retorna el número de caracteres de la cadena.
     """
-    return
+    cantidad = 0
+    while cadena[cantidad:]:
+            cantidad += 1
+    return cantidad
 
 
 def Lewis_Narvaez(tupla):
